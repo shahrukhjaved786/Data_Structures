@@ -16,7 +16,7 @@ def average_sub_array_K_Size(arr, K):
         for value_j in range(value_i, value_i + K):
             current_sum = current_sum + arr[value_j]
         average_list.append(current_sum / K)
-        sub_arr.append(arr[value_i:value_i + K])
+        sub_arr.append(arr[value_i:value_j + 1])
 
     return average_list, sub_arr
 
