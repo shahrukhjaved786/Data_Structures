@@ -39,7 +39,7 @@ def smallest_sub_arr_S_sum(arr, S):
     if min_len == math.inf:
         return 0
     else:
-        return min_len,sub_arr
+        return min_len, sub_arr
 
 
 print(smallest_sub_arr_S_sum(arr=[2, 1, 5, 2, 3, 2], S=7))
